@@ -6,14 +6,16 @@ const float p = 3.141592653589;
 void print(int, int, int, int, float, float, float, float, float, float, int);
 //void traingle(int,int,int,int,int,int); 
 void circle(int, int, float);
-main()
+int main()
 {
 	int x1, y1, x2, y2;
 	float r1, r2, d, flag = 0, S1, S2, perim1, perim2;
+	cout <<"Введите x1,y1,r1";
 	cin >> x1 >> y1 >> r1;
 	cout << endl;
 	perim1 = 2 * p*r1;
 	S1 = p * r1*r1;
+	cout <<"Введите x2 y2 r2";
 	cin >> x2 >> y2 >> r2;
 	perim2 = 2 * p*r2;
 	S2 = p * r2*r2;
